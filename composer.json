@@ -2,7 +2,7 @@
   "name": "alexssdd/yii2-dashboard-assets",
   "description": "Dashboard Assets for Yii2 Framework.",
   "type": "yii2-extension",
-  "keywords": ["yii2", "yii 2", "dashboard, assets"],
+  "keywords": ["yii2", "yii 2", "dashboard assets"],
   "license": "BSD-3-Clause",
   "authors": [
     {
