@@ -1,0 +1,27 @@
+body {
+    background: #2B2E33;
+}
+
+.login {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 25vh;
+}
+
+.login__body {
+    padding: 20px;
+    width: 100%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: rgba(255,255,255,.1);
+}
+.form-control {
+    border: 0;
+    background: rgba(0,0,0,.2);
+    padding: 10px 15px;
+    color: #CCC;
+    line-height: 20px;
+    height: auto;
+}

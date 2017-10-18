@@ -1,0 +1,36 @@
+{
+  "name": "alexssdd/yii2-dashboard-assets",
+  "description": "Dashboard Assets for Yii2 Framework.",
+  "type": "yii2-extension",
+  "keywords": ["yii2", "yii 2", "dashboard, assets"],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Alex SSDD"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/alexssdd/yii2-dashboard-assets/issues?state=open",
+    "source": "https://github.com/alexssdd/yii2-dashboard-assets"
+  },
+  "require": {
+    "yiisoft/yii2": "~2.0",
+    "bower-asset/fontawesome": "*",
+    "bower-asset/animate.css": "*",
+    "bower-asset/nprogress": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "alexssdd\\dashboard\\": "src/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}

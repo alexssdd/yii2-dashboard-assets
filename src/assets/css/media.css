@@ -1,0 +1,20 @@
+/* Media query 768px
+--------------------------------------*/
+@media (max-width: 768px) {
+
+    /* Base */
+    .wrap {padding-left: 0;}
+    .table-responsive {border: none;}
+
+    /* Header */
+    .header__logo {display: none;}
+
+    /* Aside */
+    #aside-toggle {display: block;}
+    .aside {left: -240px;}
+    .aside-mini .aside {left: 0;}
+}
+
+@media (min-width: 768px) {
+    /* Modal */
+}
