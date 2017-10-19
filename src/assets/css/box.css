@@ -4,18 +4,27 @@
     position: relative;
     margin-bottom: 20px;
     background: #fff;
-    padding: 25px;
 }
 .box__header {
-    margin-bottom: 15px;
+    padding: 20px;
 }
 .box__title {
     display: inline-block;
-    margin: 0 0 10px 0;
-    font-size: 20px;
+    font-size: 22px;
+    line-height: 32px;
     color: #2f3541;
+    margin: 0;
 }
 .box__desc {
     color: #7f8fa4;
 }
-.box__body {}
+.box__body {
+    padding: 15px 20px 15px 20px;
+}
+.box__footer {
+    border-top: 1px solid #e7eaec;
+    padding: 15px 20px;
+}
+.box__btn {
+    margin-right: 10px;
+}
