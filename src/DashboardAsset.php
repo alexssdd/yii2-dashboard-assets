@@ -14,6 +14,7 @@ class DashboardAsset extends AssetBundle
 
     public $css = [
         'css/dashboard.css',
+        'css/box.css',
         'css/media.css',
     ];
 
