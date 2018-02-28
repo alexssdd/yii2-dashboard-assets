@@ -377,41 +377,6 @@ nav[role="navigation"] {
     color: #fff;
 }
 
-/* Table box
----------------------------------------*/
-.box-action__button{
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    z-index: 2;
-    filter: alpha(opacity=0);
-    opacity: 0;
-    -webkit-transition: all .25s linear;
-    -moz-transition: all .25s linear;
-    -o-transition: all .25s linear;
-    transition: all .25s linear;
-}
-.box-action:hover .box-action__button{
-    filter: alpha(opacity=100);
-    opacity: 1;
-}
-
-/* IMPERAVI
---------------------------------------*/
-.redactor-toolbar {
-    background: #364049;
-    z-index: 50;
-}
-.redactor-toolbar li a{
-    color: white;
-}
-.product-form__price {
-    border: 1px solid #e5e6e7;
-    border-radius: 0;
-    font-size: 13px;
-    background: #fff;
-}
-
 /* Overwrite
 ---------------------------------------*/
 .tt-menu{
@@ -481,15 +446,6 @@ nav[role="navigation"] {
     top: 50%;
     left: 50%;
     margin: -25px 0 0 -25px;
-}
-
-/* Order
---------------------------------------*/
-.buttons {
-    margin-bottom: 20px;
-}
-.print-head {
-    display: none;
 }
 
 /* Tabs
