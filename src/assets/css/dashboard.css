@@ -352,44 +352,6 @@ nav[role="navigation"] {
     color: #337AB7;
 }
 
-/* Switcher
----------------------------------------*/
-#admin-body .switcher{
-    border: none;
-    background: #444;
-    color: #FFF;
-    height: 20px;
-    min-width: 40px;
-    font-size: 11px;
-    border-radius: 10px;
-    padding: 1px;
-}
-#admin-body .switcher .slider{
-    background: #f0f3f3;
-    height: 18px;
-    border-radius: 10px;
-    box-shadow: none;
-}
-#admin-body .switcher.is-active{
-    background: #1d89cf;
-}
-#admin-body .switcher .textNo{
-    color: #fff;
-}
-
-/* Overwrite
----------------------------------------*/
-.tt-menu{
-    height: 300px;
-    overflow-y: scroll;
-    overflow-x: hidden;
-}
-.tt-menu .tt-suggestion{
-    white-space: normal;
-    font-size: 13px;
-    padding: 3px 10px;
-}
-
 /* Modal tab
 ---------------------------------------*/
 .modal-tab{
