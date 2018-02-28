@@ -1,11 +1,9 @@
 /* Load page progress
  ----------------------------*/
-$(window).load(function(){
-    NProgress.done();
-});
+NProgress.start();
 
-$(document).ready(function() {
-    NProgress.start();
+$(window).on('load', function () {
+    NProgress.done();
 });
 
 /* Load pjax progress
