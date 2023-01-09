@@ -1,15 +1,15 @@
 /* Load page progress
  ----------------------------*/
-NProgress.start();
+// NProgress.start();
 
 $(window).on('load', function () {
-    NProgress.done();
+    // NProgress.done();
 });
 
 /* Load pjax progress
  ----------------------------*/
-$(document).on('pjax:start', function() { NProgress.start(); });
-$(document).on('pjax:end',   function() { NProgress.done();  });
+// $(document).on('pjax:start', function() { NProgress.start(); });
+// $(document).on('pjax:end',   function() { NProgress.done();  });
 
 
 /* Aside
