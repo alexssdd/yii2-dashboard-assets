@@ -28,7 +28,7 @@ class DashboardAsset extends AssetBundle
         'yii\bootstrap\BootstrapAsset',
         'yii\bootstrap\BootstrapPluginAsset',
         'alexssdd\dashboard\FontAwesomeAsset',
-        'alexssdd\dashboard\NProgressAsset',
+       // 'alexssdd\dashboard\NProgressAsset',
         'alexssdd\dashboard\AnimateCssAsset',
     ];
 } 
